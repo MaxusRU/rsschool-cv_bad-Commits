@@ -1,0 +1,32 @@
+body {
+  padding-left: 45px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 50px;
+  color: #063F50;
+  background-color: #f2f2f2;
+
+/*	
+  padding-left: 45px;
+  font-family: "Crimson Text", "Cambria", serif;
+
+  line-height: 50px;
+
+*/
+
+}
+
+section {
+  width: 1024px;
+  text-align: center;
+}
+
+h2 {
+  padding-bottom: 12px;
+  border-bottom: 2px solid #cccccc;
+  text-align: left;
+}
+
+ul {
+  text-align: left;
+}

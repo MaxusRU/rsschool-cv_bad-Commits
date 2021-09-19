@@ -4,33 +4,106 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="style.css">
 		<title>Maxim Solovyov</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
 	</head>
 	<body>
-		<header>
-			<h1>Maxim Solovyov</h1>
-		</header>
-		<section>
-		<h2>Hello everybody!</h2>
-		<p><img src="tiger&budha.jpg" alt="tiger&budha" width="320" height="480">
-		<h2>Contacts</h2>
-		<ul>
-			<li>e-mail: smaxus@mail.ru</li>
-			<li>phone: +79969229085</li>
-		</ul>
-		<h2>Self-presentation</h2>
-		<p>Self-realization is the best reason for development</p>
-		<h2>Skills</h2>
-		<p>I have a basic knowledge of:</p>
-		<ul>
-			<li>HTML+CSS;</li>
-			<li>C</li>
-		</ul>
-		<h2>Experience</h2>
-		<p>not yet</p>
-		<h2>Education</h2>
-		<p>TverSU, Physics and Technology Faculty</p>
-		<h2>English level</h2>
-		<p>A2</p>
-		</section>
+		<container>
+			<header>
+				<h1>Maxim Solovyov</h1>
+			</header>
+			<main>
+				<section>
+					<h2>Hello everybody!</h2>
+					<figure>
+							<img src="img/Maxim.jpg" alt="My photo">
+						<!-- width="300" height="480" -->
+					</figure>
+				</section>
+				
+				<section>
+					<h2>Contacts</h2>
+					<ul>
+						<li>e-mail: kiber987@gmail.com</li>
+						<li><a href="tel:+7(996)9229085">+7(996)9229085</a></li>
+					</ul>
+				</section>
+			
+				<section>
+					<h2>Self-presentation</h2>
+					<p>Self-realization is the best reason for development</p>
+				</section>
+
+				<section>
+					<h2>Skills</h2>
+					<ul>
+						<li>Basic knowledge HTML+CSS+JavaScript</li>
+						<li>English level: A2</li>
+						<li>Engineering</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Code example</h2>
+<pre><code class="language-js">const firstUniqChar = (str) => {
+	for (let i in str)
+		if (str.split(str[i]).length === 2) return i;
+	return -1
+}
+console.log(firstUniqChar('hhhx6ddd'));</code></pre>
+				</section>
+				<!-- <h2>Experience</h2>
+				<p>not yet</p> -->
+
+				<section>
+					<h2>Education</h2>
+					<p>TverSU, Physics and Technology Faculty</p>
+				</section>
+
+				<section>
+					<h2>English level</h2>
+					<p>A2</p>
+				</section>
+
+				<section>
+					<h2>My code links</h2>
+					<ul>
+						<li class="no_point">
+							<a href="https://github.com/MaxusRU/towel-sort" target="_blank" title="Unusual sorting">
+								<img src="img/GitHub_400x400.jpg" alt="" width="30"> 
+								 <!-- height="480"> -->
+							</a>
+						</li>
+						<li class="no_point">
+							<a href="https://github.com/MaxusRU/reverse-int" target="_blank" title="Integer reversing">
+								<img src="img/GitHub_400x400.jpg" alt="" width="30"> 
+								 <!-- height="480"> -->
+							</a>
+						</li>
+					</ul>
+				</section>
+				<section>
+					<!-- <iframe width="1664" height="766" src="https://www.youtube.com/embed/tb8b0jGQ_aE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> -->
+					<iframe width="300" src="https://www.youtube.com/embed/tb8b0jGQ_aE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+					</iframe>
+				</section>
+
+			</main>
+			<footer>
+				<ul class="hr">
+					<li>
+						<a href="https://github.com/MaxusRU" target="_blank" title="My GitHub">My GitHub</a>
+					</li>
+					<li>2021</li>
+					<li>
+						<a href="https://rs.school/js/" target="_blank" title="«JavaScript/Front-end» course">
+							<img src="img/rs_school_js.svg" alt="RS-school" width="60">
+						</a>
+					</li>
+				 </ul>
+				
+			</footer>
+		</container>
+		<script>hljs.initHighlightingOnLoad();</script>
 	</body>
 </html>

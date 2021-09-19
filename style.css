@@ -1,0 +1,98 @@
+body {
+  /* padding-left: 45px; */
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 50px;
+  color: #063F50;
+  background-color: #f2f2f2;
+  position: relative;
+  width: 100%;
+  margin: 0;
+/*	
+  padding-left: 45px;
+  font-family: "Crimson Text", "Cambria", serif;
+  line-height: 50px;
+*/
+}
+
+container {
+  display: block;
+  position: relative;
+  /* margin: auto; */
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 1px red solid; */
+  min-width: 300px; /* + margin 10px x2 */
+  max-width: 1024px;
+  /* margin: 0 10px; */
+}
+
+header {
+  /* border: 1px solid red; */
+  width: 100%;
+}
+
+main {
+  /* width: 1024px; */
+  /* text-align: center; */
+  /* border: 1px red solid; */
+}
+
+section {
+  /* border-bottom: 2px solid #cccccc; */
+}
+
+h2 {
+  margin: 12px 0 0 0;
+  /* border-top: 2px solid #cccccc; */
+  border-bottom: 2px solid #cccccc;
+  text-align: left;
+}
+
+ul {
+  text-align: left;
+}
+
+p {
+  margin: 0 0 15px 0;
+  text-align: left;
+}
+
+figure {
+  /* width: 100%; Ширина области */
+  /* height: 400px; Высота области */
+  margin: 10px 0 0 0;
+}
+
+figure img { 
+  width: 300px;
+  /* height: 100%; */
+  object-fit: cover; /* Вписываем фотографию в область */
+}
+
+footer {
+  /* border: 1px solid yellowgreen; */
+  color: white;
+  background-color: grey;
+  width: 100%;
+  /* margin: 10px 0 0 0; */
+  /* text-align: center; */
+  /* padding: 20px; */
+}
+
+ul.hr {
+  margin: 0; /* Обнуляем значение отступов */
+  padding: 4px; /* Значение полей */
+  text-align: center;
+
+ }
+ ul.hr li {
+  display: inline; /* Отображать как строчный элемент */
+  margin-right: 5px; /* Отступ слева */
+  /* border: 1px solid #000; Рамка вокруг текста */
+  padding: 3px; /* Поля вокруг текста */
+ }
+
+.no_point {
+  list-style-type: none;
+}
